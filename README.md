@@ -32,3 +32,6 @@ Classe MulticastReceiver
 Classe MulticastPublisher
   -- 
    Classe que realiza a implementação concreta do envio de mensagens no multicast. Na função send(), instancia um DatagramSocket e usa a mensagem como parâmetro para o envio. Em caso de colisão espera um tempo aleatório e retransmite. 
+   
+   
+![](http://reactivex.io/documentation/operators/images/S.PublishSubject.png)
